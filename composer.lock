@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eb1e331d0ab3411ba596b8559f9e6115",
+    "packages": [
+        {
+            "name": "lisa18/swostar",
+            "version": "v1.0",
+            "dist": {
+                "type": "path",
+                "url": "../swostar",
+                "reference": "8a9ca4fc60d811ec68470a81cf0cc47adda335dc"
+            },
+            "require": {
+                "php": ">7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SwoStar\\": "src/"
+                },
+                "files": [
+                    "src/Support/Helper.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "swostar"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">7.0"
+    },
+    "platform-dev": []
+}

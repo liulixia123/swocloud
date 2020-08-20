@@ -1,0 +1,22 @@
+{
+    "name": "lisa18/swocloud",
+    "description": "swocloud im",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">7.0",
+		"lisa18/swostar": "^1.0"
+    },
+	"autoload": {
+		"psr-4": {
+		"SwoCloud\\": "src/"
+		}
+	},
+	"repositories": {
+		"lisa18": {
+		"type": "path",
+		"url": "../swostar"
+		}
+	}
+}
